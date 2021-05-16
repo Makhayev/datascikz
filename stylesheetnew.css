@@ -1,0 +1,645 @@
+#pasteventphoto {
+  width: 30vw;
+}
+
+body {
+  background-image: url(background1.png);
+}
+#microchelik {
+  width: 50vw;
+  color: gray;
+  margin-top: 25vh;
+}
+h2 {
+  text-align: center;
+  font-size: 10vh;
+  color: #f1f1f1;
+  text-decoration: underline;
+}
+
+#upcomingevents {
+  margin-top: 9vh;
+  margin-left: 10vw;
+}
+
+#tim {
+  float:right;
+  color:gray;
+  margin-right: 15vw;
+  margin-bottom: 5vh;
+  display: block;
+  position: relative;
+}
+
+i {
+  color: #613E87;
+  width: 4vw;
+  /* font-size: 3vh; */
+  /* border-style: solid; */
+  /* padding: 0; */
+  margin-right: 20vw;
+  transition: 0.4s;
+}
+
+i:hover {
+  color: #844FBD;
+}
+
+p {
+  display: inline-block;
+  margin-left: 2vw;
+  margin-top: 2vh;
+  font-size: 2.5vh;
+  font-family: Georgia;
+}
+div {
+  position: absolute;
+  text-align: right;
+  margin-left: 90vw;
+  margin-top: 5vh;
+  font-family: Georgia;
+  font-size: 2vh;
+  
+}
+
+div a {
+  color: #d4d4d4;
+}
+.flags {
+
+  width: 2vw;
+  height: 2vh;
+
+}
+
+
+
+hr {
+  color:white;
+  width: 75vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  /* margin: auto; */
+}
+
+#button {
+display: inline-block;
+margin-top: 1vh;
+margin-left: 42vw;
+text-align: center;
+width: 15vw;
+
+}
+
+.button2 {
+  margin-top: 5vh;
+  margin-left: 40vw;
+  color: #d4d4d4;
+  border-style: double;
+  background-color: #844FBD ;
+  padding: 5vh;
+  border-radius: 15px;
+  transition: 0.2s;
+  display: inline-block;
+}
+
+.button2:hover {
+  background-color: #613E87 ;
+
+}
+
+#teamphoto {
+  display:block;
+  width: 50vw;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  display: block;
+  color:  #d4d4d4 ;
+  font-size: 6vh;
+  font-family: Georgia;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+
+}
+
+
+.navi:hover {
+    color:white;
+}
+
+#button1 {
+  margin-left: 40vw;
+  padding-right: 5.75vw;
+  padding-left: 5.75vw;
+  margin-top: 3vh;
+  /* padding: 5vh; */
+  display: inline-block;
+  margin: 0;
+  margin-left: 5vw;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+  color: gray;
+}
+
+.navi {
+  color: gray;
+  display:inline-block;
+}
+
+#logo {
+  width: 30vw;
+  margin: auto;
+  display: block;
+  position: relative;
+  transition: all 4s linear;
+  opacity: 0;
+}
+
+#logoopa {
+  opacity: 1;
+}
+
+#textpodlogo {
+  margin-left: 20vw;
+  margin-right: 20vw;
+  color: #b9b9b9;
+  text-align: center;
+  font-size: 4vh;
+  font-style: italic;
+  font-family: serif;
+}
+
+#eventtext1 {
+  display: inline-block;
+  color: #b9b9b9;
+  margin-left: 36vw;
+  margin-right: 10vw;
+  line-height: 4vh;
+  /* border-style: double; */
+}
+
+#textaboutus {
+  color: #b9b9b9;
+  text-align: center;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-top: 5vh;
+  line-height: 4vh;
+}
+
+#upcomingeventphoto {
+
+    width: 25vw;
+    display: inline-block;
+    border-style: solid;
+    margin: 1vw;
+    position: absolute;
+
+}
+
+#needTopMargin {
+  margin-top: 25vh;
+}
+
+#eventphoto1 {
+  width: 30vw;
+  display: inline-block;
+  border-style: solid;
+  margin-left: 5vw;
+  position: absolute;
+}
+
+#rickastleyconcert {
+  margin-right: 15vw;
+  margin-left: 15vw;
+  color:white;
+  margin-top: 5vh;
+}
+
+iframe {
+  width: 50vw;
+  height: 50vh;
+  /* frameborder: 50px; */
+  display: block;
+  margin: auto;
+}
+
+#firstthing {
+  margin-left: 20vw;
+}
+
+li:hover {
+  background-color: gray;
+}
+
+#forTels {
+  display: none;
+  
+}
+
+
+#button3 {
+  width: 20vw;
+  text-align: center;
+}
+
+
+
+@media only screen and (max-device-width: 800px) {
+
+  #button3 {
+    display: block;
+    width: 70vw;
+  }
+
+  #pasteventphoto {
+    width: 70vw;
+  }
+
+  .pastForMobile {
+    width: 70vw;
+
+  }
+
+  #microchelik {
+    width: 50vw;
+    color: gray;
+    margin-top: 1vh;
+  }
+
+	#button {
+display: block;
+margin-top: 1vh;
+
+
+}
+
+  div {
+    position: relative;
+    text-align: right;
+    margin: 4vw;
+  }
+
+
+  #tim {
+    float:right;
+    color:gray;
+    margin-bottom: 5vh;
+    display: block;
+    position: relative;
+    margin-right: 10vw;
+
+  }
+
+
+  #firstthing {
+    margin-left: 15vw;
+  }
+
+  /* i {
+    color:  Orange ;
+    width: 20vw;
+    font-size: 3vh;
+    border-style: solid;
+    padding: 0;
+  } */
+
+  #eventtext1 {
+    display: block;
+    color: white;
+    margin: 0;
+    /* margin-left: 27vw; */
+
+  }
+
+  #eventphoto1 {
+    width: 70vw;
+    display: block;
+    border-style: solid;
+    margin: auto;
+    position: relative;
+  }
+
+  .button2 {
+    /* margin-left: 30vw; */
+    margin: auto;
+    color: #b9b9b9;
+    border-style: double;
+    background-color:  #613E87 ;
+    padding: 3vh;
+    border-radius: 15px;
+    transition: 0.2s;
+	display: block;
+  }
+
+  #button1 {
+    margin: auto;
+    width: 80vw;
+  }
+  #button {
+    margin: auto;
+    width: 80vw;
+  }
+
+
+  .button2:active {
+    background-color: #613E87;
+  }
+
+  iframe {
+    width: 80vw;
+    height: 30vh;
+  }
+
+  #rickastleyconcert {
+    margin-right: 5vw;
+    margin-left: 5vw;
+    color:white;
+    margin-top: 5vh;
+  }
+
+
+  .flags {
+    width: 10vw;
+    height: 4vh;
+  }
+
+  #logo {
+    width: 60vw;
+    margin: auto;
+    display: block;
+    position: relative;
+  }
+
+  p {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 2vh;
+    font-size: 2.5vh;
+    font-family: Georgia;
+  }
+
+  .navi {
+    font-size: 4vh;
+  }
+
+  #textpodlogo {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    color: #b9b9b9;
+    text-align: center;
+  }
+
+
+
+  #teamphoto {
+    display:block;
+    width: 80vw;
+    margin: auto;
+  }
+
+  #textaboutus {
+    color: #b9b9b9;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vh;
+  }
+
+  li {
+    list-style: none;
+    display: inline-block;
+    width: 12vw;
+    height: 7vh;
+    font-size: 5vh;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    transition: .3s background-color;
+    z-index: 2;
+    margin-right: 5vw;
+  }
+
+  #forTels {
+    display: block;
+
+  }
+
+  #forComps {
+    display: none;
+  }
+
+  h1 {
+    font-size: 6vh;
+  }
+
+  #needTopMargin {
+    margin-top: 10vh;
+  }
+
+  #pasteventphoto {
+    width: 70vw;
+  }
+
+
+}
+
+
+@media only screen and (max-device-width: 480px) {
+
+  #button3 {
+    display: block;
+    width: 70vw;
+  }
+
+ 
+
+.pastForMobile {
+  width: 70vw;
+}
+
+  #microchelik {
+    width: 50vw;
+    color: gray;
+    margin-top: 1vh;
+  }
+
+	#button {
+display: inline-block;
+margin-top: 1vh;
+
+
+}
+
+
+  div {
+    position: relative;
+    text-align: right;
+    margin: 4vw;
+  }
+
+  #tim {
+    float:right;
+    color:gray;
+    margin-bottom: 5vh;
+    display: block;
+    position: relative;
+    margin-right: 10vw;
+
+  }
+
+
+
+  #needTopMargin {
+    margin-top: 10vh;
+  }
+
+  h1 {
+    font-size: 6vh;
+  }
+
+
+
+  #firstthing {
+    margin-left: 15vw;
+  }
+
+  /* i {
+    color:  Orange ;
+    width: 20vw;
+    font-size: 3vh;
+
+    padding: 0;
+  } */
+
+  #eventtext1 {
+    display: block;
+    color: #b9b9b9;
+    margin: 0;
+    /* margin-left: 27vw; */
+
+  }
+
+  #eventphoto1 {
+    width: 70vw;
+    display: block;
+    border-style: solid;
+    margin: auto;
+    position: relative;
+  }
+
+  .button2 {
+    /* margin-left: 30vw; */
+    /* margin: auto; */
+    color: white;
+    border-style: double;
+    background-color:  #844FBD ;
+    padding: 3vh;
+    border-radius: 15px;
+    transition: 0.2s;
+	   display: block;
+  }
+
+  .button2:active {
+    background-color: #613E87;
+  }
+#button {
+  margin: auto;
+  width: 80vw;
+}
+  #button1 {
+    margin: auto;
+      width: 80vw;
+  }
+
+  iframe {
+    width: 80vw;
+    height: 30vh;
+  }
+
+  #rickastleyconcert {
+    margin-right: 5vw;
+    margin-left: 5vw;
+    color:#b9b9b9;
+    margin-top: 5vh;
+  }
+
+  .flags {
+    width: 10vw;
+    height: 4vh;
+  }
+
+  #logo {
+    width: 60vw;
+    margin: auto;
+    display: block;
+    position: relative;
+  }
+
+  p {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 2vh;
+    font-size: 2.5vh;
+    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+    font-family: Georgia;
+  }
+
+  .navi {
+    font-size: 4vh;
+  }
+
+  #textpodlogo {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    color: #b9b9b9;
+    text-align: center;
+  }
+
+
+
+  #teamphoto {
+    display:block;
+    width: 80vw;
+    margin: auto;
+  }
+
+  #textaboutus {
+    color: #b9b9b9;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vh;
+  }
+
+  li {
+    list-style: none;
+    display: inline-block;
+    width: 12vw;
+    height: 7vh;
+    font-size: 5vh;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    transition: .3s background-color;
+    z-index: 2;
+    margin-right: 5vw;
+  }
+
+  #forTels {
+    display: block;
+
+  }
+
+  #forComps {
+    display: none;
+  }
+
+  #pasteventphoto {
+    width: 70vw;
+  }
+
+}
